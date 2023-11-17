@@ -12,7 +12,7 @@ const AchievementsPage: NextPage<AchievementPageProps> = ({ achievements }) => {
   return (
     <>
       <NextSeo
-        title="Achievements | Anish De"
+        title="Achievements | Kerem"
         description="Anish De's Achievements"
       />
       <h1 className="mb-8 text-2xl font-bold">Achievements</h1>
