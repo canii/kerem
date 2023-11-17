@@ -19,7 +19,7 @@ const socials: Social[] = [
     id: "instagram",
     name: "instagram",
     url: "https://twitter.com/_kermcann",
-    icon: <Instagramlogo color="#1DA1F2" />,
+    icon: <InstagramLogo color="#1DA1F2" />,
   },
   {
     id: "spotify",
