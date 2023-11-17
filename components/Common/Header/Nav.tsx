@@ -11,19 +11,6 @@ const navItems = [
     name: "Home",
     href: "/",
   },
-  { name: "Blog", href: "/blog" },
-  {
-    name: "Projects",
-    href: "/projects",
-  },
-  {
-    name: "Achievements",
-    href: "/achievements",
-  },
-  {
-    name: "Guestbook",
-    href: "/guestbook",
-  },
 ];
 
 const mobileMenuVariants: Variants = {
