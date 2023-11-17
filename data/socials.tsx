@@ -16,8 +16,8 @@ interface Social {
 
 const socials: Social[] = [
   {
-    id: "İnstagram",
-    name: "İnstagram",
+    id: "instagram",
+    name: "instagram",
     url: "https://twitter.com/_kermcann",
     icon: <Instagramlogo color="#1DA1F2" />,
   },
