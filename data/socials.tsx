@@ -1,10 +1,9 @@
 import { ReactNode } from "react";
 
 import {
-  DevToLogo,
-  GitHubLogo,
-  HashnodeLogo,
-  Twitterlogo,
+  InstagramLogo,
+  SpotifyLogo,
+  DiscordLogo,
   YouTubeLogo,
 } from "@/components/Shared/Icons";
 
@@ -17,34 +16,34 @@ interface Social {
 
 const socials: Social[] = [
   {
-    id: "twitter",
-    name: "Twitter",
-    url: "https://twitter.com/AnishDe12020",
-    icon: <Twitterlogo color="#1DA1F2" />,
+    id: "İnstagram",
+    name: "İnstagram",
+    url: "https://twitter.com/_kermcann",
+    icon: <Instagramlogo color="#1DA1F2" />,
   },
   {
-    id: "github",
-    name: "GitHub",
-    url: "https://github.com/AnishDe12020",
-    icon: <GitHubLogo />,
+    id: "Spotify",
+    name: "Spotify",
+    url: "https://open.spotify.com/user/pbf8r6cuik3evk5kio58x0uue?si=3119ed0063854ad5",
+    icon: <SpotifyLogo color="1DB954" />,
   },
   {
-    id: "youtube",
-    name: "YouTube",
+    id: "Discord",
+    name: "Discord",
     url: "https://www.youtube.com/anishtechtutorials",
-    icon: <YouTubeLogo color="#ff0000" />,
+    icon: <DiscordLogo color="#7289d9" />,
   },
   {
     id: "hashnode",
     name: "Hashnode",
-    url: "https://hashnode.com/@anishde12020",
+    url: "https://discord.com/users/314403590942752778/",
     icon: <HashnodeLogo color="#2962ff" />,
   },
   {
-    id: "dev.to",
-    name: "Dev.to",
-    url: "https://dev.to/anishde12020",
-    icon: <DevToLogo color="#f0f0f0" />,
+    id: "Youtube",
+    name: "Youtube",
+    url: "https://www.youtube.com/channel/UCxAcOwXzaxNNR9RkjUBHa6w",
+    icon: <YoutubeLogo color="#ff0000" />,
   },
 ];
 
