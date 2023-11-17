@@ -17,3 +17,4 @@ export { default as StorliLogo } from "./Storli";
 export { default as SecliLogo } from "./Secli";
 export { default as InstagramLogo } from "./Instagram";
 export { default as DiscordLogo } from "./Discord";
+export { default as SpotifyLogo } from "./Spotify";
