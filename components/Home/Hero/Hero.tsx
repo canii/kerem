@@ -10,7 +10,7 @@ const Hero = (): JSX.Element => {
           Kerem
         </h1>
         <h2 className="will-change-opacity text-lg font-medium text-gray-400 will-change-transform">
-          10th grader • Front-end Developer • Graphic Designer • PlayBoy •
+          2th grader • Front-end Developer • Graphic Designer • PlayBoy •
           E-Trader
         </h2>
         <p className="text-md will-change-opacity text-lg text-gray-300 will-change-transform">
