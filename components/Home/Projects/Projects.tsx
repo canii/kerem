@@ -41,13 +41,6 @@ const Projects = (): JSX.Element => {
           </div>
         ))}
       </div>
-      <Link
-        href="/projects"
-        className="group mt-8 flex items-center justify-start space-x-2 text-xl font-medium"
-      >
-        <span>View All Projects</span>
-        <ArrowRight className="h-4 w-4 transition duration-200 group-hover:translate-x-1" />
-      </Link>
     </div>
   );
 };
