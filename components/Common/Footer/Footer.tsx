@@ -9,8 +9,8 @@ const Footer = (): JSX.Element => {
         Made by <Link href="https://instagram.com/_kermcann">Kerem</Link>
       </p>
       <p>
-        This portfolio is open source and the source code can be found{" "}
-        <Link href="https://github.com/AnishDe12020/portfolio">on GitHub</Link>
+        For contact{" "}
+        <Link href="https://discord.com/users/314403590942752778/">on Discord</Link>
       </p>
     </footer>
   );
