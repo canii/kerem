@@ -15,7 +15,7 @@ const Hero = (): JSX.Element => {
         </h2>
         <p className="text-md will-change-opacity text-lg text-gray-300 will-change-transform">
           I am a front-end developer, currently looking into learning new
-          things (Rust, , Web2 and front-end technologies). Whenever I feel like
+          things (Raspberry Pi, Arduino, Web3 and back-end technologies). Whenever I feel like
           I should share my knowledge with others, I like to do it via blog
           posts and social media.
         </p>
