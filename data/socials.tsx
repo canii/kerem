@@ -25,7 +25,7 @@ const socials: Social[] = [
     id: "Spotify",
     name: "Spotify",
     url: "https://open.spotify.com/user/pbf8r6cuik3evk5kio58x0uue?si=3119ed0063854ad5",
-    icon: <SpotifyLogo color="1DB954" />,
+    icon: <SpotifyLogo color="#1DB954" />,
   },
   {
     id: "Discord",
