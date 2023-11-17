@@ -34,12 +34,6 @@ const socials: Social[] = [
     icon: <DiscordLogo color="#7289d9" />,
   },
   {
-    id: "hashnode",
-    name: "Hashnode",
-    url: "https://discord.com/users/314403590942752778/",
-    icon: <HashnodeLogo color="#2962ff" />,
-  },
-  {
     id: "Youtube",
     name: "Youtube",
     url: "https://www.youtube.com/channel/UCxAcOwXzaxNNR9RkjUBHa6w",
