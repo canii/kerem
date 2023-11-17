@@ -16,3 +16,4 @@ export { default as TwNFTLogo } from "./TwNFT";
 export { default as StorliLogo } from "./Storli";
 export { default as SecliLogo } from "./Secli";
 export { default as InstagramLogo } from "./Instagram";
+export { default as DiscordLogo } from "./Discord";
