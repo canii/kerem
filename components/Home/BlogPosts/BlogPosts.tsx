@@ -1,6 +1,4 @@
 import BlogPostCard from "@/components/Blog/BlogPostCard";
-import Link from "@/components/Shared/Link";
-import { ArrowRight } from "react-feather";
 import { HashnodePostWithPlaceHolderImage } from "types/hashnode";
 
 interface BlogPostsProps {
