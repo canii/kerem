@@ -11,10 +11,6 @@ const Projects = (): JSX.Element => {
             key={project._id}
             className="group relative rounded-xl border-[1px] border-tertiary bg-secondary/50 p-4 transition duration-200 hover:border-accent md:hover:scale-[1.01]"
           >
-            <Link
-              href={`/projects/${project.slug}`}
-              className="flex flex-col space-y-8 md:flex-row md:space-y-0 md:space-x-4"
-            >
               <IconFactory
                 name={project.iconName}
                 className="h-12 w-12 rounded-xl bg-tertiary p-1.5 shadow-md"
@@ -25,7 +21,6 @@ const Projects = (): JSX.Element => {
                 </h3>
                 <p className="text-md text-gray-300">{project.description}</p>
               </div>
-            </Link>
             {(project.link || project.githubLink) && (
               <a
                 className="absolute -top-2 -right-2 hidden rounded-full border-[1px] border-accent bg-accent p-1.5 text-tertiary opacity-0 transition hover:bg-secondary hover:text-accent group-hover:block group-hover:opacity-100"
@@ -33,7 +28,6 @@ const Projects = (): JSX.Element => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ExternalLink className="h-4 w-4" />
               </a>
             )}
           </div>
