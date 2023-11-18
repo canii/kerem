@@ -1,6 +1,3 @@
-import BlogPostCard from "@/components/Blog/BlogPostCard";
-import { HashnodePostWithPlaceHolderImage } from "types/hashnode";
-
 interface BlogPostsProps {
   posts: HashnodePostWithPlaceHolderImage[];
   domain: string;
