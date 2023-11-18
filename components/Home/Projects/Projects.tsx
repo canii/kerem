@@ -1,7 +1,5 @@
 import { allProjects } from ".contentlayer/generated";
 import IconFactory from "@/components/Shared/Icons/IconFactory";
-import Link from "@/components/Shared/Link";
-import { ArrowRight, ExternalLink } from "react-feather";
 
 const Projects = (): JSX.Element => {
   return (
@@ -41,13 +39,6 @@ const Projects = (): JSX.Element => {
           </div>
         ))}
       </div>
-      <Link
-        href="/projects"
-        className="group mt-8 flex items-center justify-start space-x-2 text-xl font-medium"
-      >
-        <span>View All Projects</span>
-        <ArrowRight className="h-4 w-4 transition duration-200 group-hover:translate-x-1" />
-      </Link>
     </div>
   );
 };
