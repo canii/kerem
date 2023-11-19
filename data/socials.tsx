@@ -17,34 +17,28 @@ interface Social {
 
 const socials: Social[] = [
   {
-    id: "twitter",
-    name: "Twitter",
+    id: "instagram",
+    name: "Instagram",
     url: "https://instagram.com/_kermcann",
     icon: <Twitterlogo color="#1DA1F2" />,
   },
   {
-    id: "github",
-    name: "GitHub",
-    url: "https://github.com/AnishDe12020",
+    id: "spotify",
+    name: "Spotify",
+    url: "https://open.spotify.com/user/pbf8r6cuik3evk5kio58x0uue?si=1349beef38e54e16",
     icon: <GitHubLogo />,
   },
   {
-    id: "youtube",
-    name: "YouTube",
-    url: "https://www.youtube.com/anishtechtutorials",
+    id: "discord",
+    name: "Discord",
+    url: "https://discord.com/users/314403590942752778/",
     icon: <YouTubeLogo color="#ff0000" />,
   },
   {
-    id: "hashnode",
-    name: "Hashnode",
-    url: "https://hashnode.com/@anishde12020",
+    id: "steam",
+    name: "Steam",
+    url: "https://steamcommunity.com/id/jackaktus",
     icon: <HashnodeLogo color="#2962ff" />,
-  },
-  {
-    id: "dev.to",
-    name: "Dev.to",
-    url: "https://dev.to/anishde12020",
-    icon: <DevToLogo color="#f0f0f0" />,
   },
 ];
 
