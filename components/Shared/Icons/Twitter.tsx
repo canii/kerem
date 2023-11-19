@@ -5,7 +5,7 @@ const Twitterlogo = (props: SVGProps<SVGSVGElement>): JSX.Element => (
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    viewBox="0 0 248 204"
+    viewBox="0 0 16 16"
     xmlSpace="preserve"
     fill="none"
     {...props}
