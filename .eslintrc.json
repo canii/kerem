@@ -4,7 +4,8 @@
     "google",
     "prettier",
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "next"
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
@@ -14,5 +15,7 @@
     "require-jsdoc": "off",
     "new-cap": "off",
     "react/prop-types": "off"
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
